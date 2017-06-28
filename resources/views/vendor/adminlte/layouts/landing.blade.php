@@ -9,9 +9,9 @@ Landing page based on Pratt: http://blacktie.co/demo/pratt/
     <meta name="description" content="Adminlte-laravel - {{ trans('adminlte_lang::message.landingdescription') }} ">
     <meta name="author" content="Sergi Tur Badenas - acacha.org">
 
-    <meta property="og:title" content="Adminlte-laravel" />
+    <meta property="og:title" content="SHINRAI" />
     <meta property="og:type" content="website" />
-    <meta property="og:description" content="Adminlte-laravel - {{ trans('adminlte_lang::message.landingdescription') }}" />
+    <meta property="og:description" content="SHINRAI SYSTEMS" />
     <meta property="og:url" content="http://demo.adminlte.acacha.org/" />
     <meta property="og:image" content="http://demo.adminlte.acacha.org/img/AcachaAdminLTE.png" />
     <meta property="og:image" content="http://demo.adminlte.acacha.org/img/AcachaAdminLTE600x600.png" />
@@ -30,7 +30,8 @@ Landing page based on Pratt: http://blacktie.co/demo/pratt/
 
     <link href='https://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Raleway:400,300,700' rel='stylesheet' type='text/css'>
-
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <link rel="stylesheet" media="screen" href="/css/particles/style.css">
 </head>
 
 <body data-spy="scroll" data-target="#navigation" data-offset="50">
@@ -45,7 +46,7 @@ Landing page based on Pratt: http://blacktie.co/demo/pratt/
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="#"><b>adminlte-laravel</b></a>
+                <a class="navbar-brand" href="#"><b>SHINRAI</b></a>
             </div>
             <div class="navbar-collapse collapse">
                 <ul class="nav navbar-nav">
@@ -68,36 +69,12 @@ Landing page based on Pratt: http://blacktie.co/demo/pratt/
 
 
     <section id="home" name="home">
-        <div id="headerwrap">
-            <div class="container">
-                <div class="row centered">
-                    <div class="col-lg-12">
-                        <h1>Acacha <b><a href="https://github.com/acacha/adminlte-laravel">adminlte-laravel</a></b></h1>
-                        <h3>A <a href="https://laravel.com/">Laravel</a> {{ trans('adminlte_lang::message.laravelpackage') }}
-                            scaffolding/boilerplate {{ trans('adminlte_lang::message.to') }} <a href="https://almsaeedstudio.com/preview">AdminLTE</a> {{ trans('adminlte_lang::message.templatewith') }}
-                            <a href="http://getbootstrap.com/">Bootstrap</a> 3.0 {{ trans('adminlte_lang::message.and') }} <a href="http://blacktie.co/demo/pratt/">Pratt</a> Landing page</h3>
-                        <h3><a href="{{ url('/register') }}" class="btn btn-lg btn-success">{{ trans('adminlte_lang::message.gedstarted') }}</a></h3>
-                    </div>
-                    <div class="col-lg-2">
-                        <h5>{{ trans('adminlte_lang::message.amazing') }}</h5>
-                        <p>{{ trans('adminlte_lang::message.basedadminlte') }}</p>
-                        <img class="hidden-xs hidden-sm hidden-md" src="{{ asset('/img/arrow1.png') }}">
-                    </div>
-                    <div class="col-lg-8">
-                        <img class="img-responsive" src="{{ asset('/img/app-bg.png') }}" alt="">
-                    </div>
-                    <div class="col-lg-2">
-                        <br>
-                        <img class="hidden-xs hidden-sm hidden-md" src="{{ asset('/img/arrow2.png') }}">
-                        <h5>{{ trans('adminlte_lang::message.awesomepackaged') }}</h5>
-                        <p>... {{ trans('adminlte_lang::message.by') }} <a href="http://acacha.org/sergitur">Sergi Tur Badenas</a> {{ trans('adminlte_lang::message.at') }} <a href="http://acacha.org">acacha.org</a> {{ trans('adminlte_lang::message.readytouse') }}</p>
-                    </div>
-                </div>
-            </div> <!--/ .container -->
-        </div><!--/ #headerwrap -->
+        <div id="particles-js">
+            <img class="img-responsive" id="img_logo" src="{{ asset('/img/logo/white.png') }}" alt="logo">
+        </div><!--/ #particles-js -->
     </section>
 
-    <section id="desc" name="desc">
+    <section id="about" name="about">
         <!-- INTRO WRAP -->
         <div id="intro">
             <div class="container">
@@ -276,15 +253,10 @@ Landing page based on Pratt: http://blacktie.co/demo/pratt/
     <footer>
         <div id="c">
             <div class="container">
-                <p>
-                    <a href="https://github.com/acacha/adminlte-laravel"></a><b>admin-lte-laravel</b></a>. {{ trans('adminlte_lang::message.descriptionpackage') }}.<br/>
-                    <strong>Copyright &copy; 2015 <a href="http://acacha.org">Acacha.org</a>.</strong> {{ trans('adminlte_lang::message.createdby') }} <a href="http://acacha.org/sergitur">Sergi Tur Badenas</a>. {{ trans('adminlte_lang::message.seecode') }} <a href="https://github.com/acacha/adminlte-laravel">Github</a>
-                    <br/>
-                    AdminLTE {{ trans('adminlte_lang::message.createdby') }} Abdullah Almsaeed <a href="https://almsaeedstudio.com/">almsaeedstudio.com</a>
-                    <br/>
-                    Pratt Landing Page {{ trans('adminlte_lang::message.createdby') }} <a href="http://www.blacktie.co">BLACKTIE.CO</a>
+                <p>Pellentesque auctor neque nec urna. Vestibulum eu odio.. Curabitur vestibulum aliquam leo. Aenean commodo ligula eget dolor.
+                    Morbi nec metus. Morbi mattis ullamcorper velit. Quisque malesuada placerat nisl. Maecenas egestas arcu quis ligula mattis placerat. Donec posuere vulputate arcu.
+                    Fusce a quam. Mauris sollicitudin fermentum libero. Proin magna. Morbi nec metus. Aenean vulputate eleifend tellus.
                 </p>
-
             </div>
         </div>
     </footer>
@@ -295,10 +267,24 @@ Landing page based on Pratt: http://blacktie.co/demo/pratt/
 ================================================== -->
 <!-- Placed at the end of the document so the pages load faster -->
 <script src="{{ mix('/js/app-landing.js') }}"></script>
+<script src="/js/particles/particles.min.js"></script>
+<script src="/js/particles/configuration_particles.js"></script>
+
 <script>
     $('.carousel').carousel({
         interval: 3500
     })
+</script>
+<script>
+    var count_particles, stats, update;
+    count_particles = 400;
+    update = function() {
+        if (window.pJSDom[0].pJS.particles && window.pJSDom[0].pJS.particles.array) {
+            count_particles.innerText = window.pJSDom[0].pJS.particles.array.length;
+        }
+        requestAnimationFrame(update);
+    };
+    requestAnimationFrame(update);
 </script>
 </body>
 </html>
