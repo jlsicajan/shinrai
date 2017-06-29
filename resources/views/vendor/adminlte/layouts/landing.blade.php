@@ -6,7 +6,7 @@ Landing page based on Pratt: http://blacktie.co/demo/pratt/
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Adminlte-laravel - {{ trans('adminlte_lang::message.landingdescription') }} ">
+    <meta name="description" content="Shinrai systems">
     <meta name="author" content="Sergi Tur Badenas - acacha.org">
 
     <meta property="og:title" content="SHINRAI" />
@@ -23,7 +23,7 @@ Landing page based on Pratt: http://blacktie.co/demo/pratt/
     <meta name="twitter:site" content="@acachawiki" />
     <meta name="twitter:creator" content="@acacha1" />
 
-    <title>{{ trans('adminlte_lang::message.landingdescriptionpratt') }}</title>
+    <title>SHINRAI</title>
 
     <!-- Custom styles for this template -->
     <link href="{{ asset('/css/all-landing.css') }}" rel="stylesheet">
@@ -50,10 +50,11 @@ Landing page based on Pratt: http://blacktie.co/demo/pratt/
             </div>
             <div class="navbar-collapse collapse">
                 <ul class="nav navbar-nav">
-                    <li class="active"><a href="#home" class="smoothScroll">{{ trans('adminlte_lang::message.home') }}</a></li>
-                    <li><a href="#desc" class="smoothScroll">{{ trans('adminlte_lang::message.description') }}</a></li>
-                    <li><a href="#showcase" class="smoothScroll">{{ trans('adminlte_lang::message.showcase') }}</a></li>
-                    <li><a href="#contact" class="smoothScroll">{{ trans('adminlte_lang::message.contact') }}</a></li>
+                    <li class="active"><a href="#home" class="smoothScroll">HOME</a></li>
+                    <li><a href="#about" class="smoothScroll">ABOUT</a></li>
+                    <li><a href="#showcase" class="smoothScroll">FEATURES</a></li>
+                    <li><a href="#pricing" class="smoothScroll">PRICING</a></li>
+                    <li><a href="#contact" class="smoothScroll">CONTACT</a></li>
                 </ul>
                 <ul class="nav navbar-nav navbar-right">
                     @if (Auth::guest())
@@ -183,6 +184,39 @@ Landing page based on Pratt: http://blacktie.co/demo/pratt/
 
     <section id="showcase" name="showcase">
         <div id="showcase">
+            <div class="container">
+                <div class="row">
+                    <h1 class="centered">{{ trans('adminlte_lang::message.screenshots') }}</h1>
+                    <br>
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div id="carousel-example-generic" class="carousel slide">
+                            <!-- Indicators -->
+                            <ol class="carousel-indicators">
+                                <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+                                <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+                            </ol>
+
+                            <!-- Wrapper for slides -->
+                            <div class="carousel-inner">
+                                <div class="item active">
+                                    <img src="{{ asset('/img/item-01.png') }}" alt="">
+                                </div>
+                                <div class="item">
+                                    <img src="{{ asset('/img/item-02.png') }}" alt="">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <br>
+                <br>
+                <br>
+            </div><!-- /container -->
+        </div>
+    </section>
+
+    <section id="pricing" name="pricing">
+        <div id="pricing">
             <div class="container">
                 <div class="row">
                     <h1 class="centered">{{ trans('adminlte_lang::message.screenshots') }}</h1>
