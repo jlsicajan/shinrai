@@ -185,27 +185,21 @@ Landing page based on Pratt: http://blacktie.co/demo/pratt/
     <section id="showcase" name="showcase">
         <div id="showcase">
             <div class="container">
-                <div class="row">
-                    <h1 class="centered">{{ trans('adminlte_lang::message.screenshots') }}</h1>
-                    <br>
-                    <div class="col-lg-8 col-lg-offset-2">
-                        <div id="carousel-example-generic" class="carousel slide">
-                            <!-- Indicators -->
-                            <ol class="carousel-indicators">
-                                <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
-                                <li data-target="#carousel-example-generic" data-slide-to="1"></li>
-                            </ol>
+                <div class="row text-center">
+                    <div class="icon-wrapper">
+                        <i class="fa fa-envelope-o custom-icon"><span class="fix-editor">&nbsp;</span>
+                        </i>
+                    </div>
 
-                            <!-- Wrapper for slides -->
-                            <div class="carousel-inner">
-                                <div class="item active">
-                                    <img src="{{ asset('/img/item-01.png') }}" alt="">
-                                </div>
-                                <div class="item">
-                                    <img src="{{ asset('/img/item-02.png') }}" alt="">
-                                </div>
-                            </div>
-                        </div>
+                    <div class="icon-wrapper">
+                        <i class="fa fa-comment custom-icon"><span class="fix-editor">&nbsp;</span>
+                        </i>
+                    </div>
+
+                    <div class="icon-wrapper">
+                        <i class="fa fa-bar-chart custom-icon">
+                            <span class="fix-editor">&nbsp;</span>
+                        </i>
                     </div>
                 </div>
                 <br>
@@ -219,23 +213,50 @@ Landing page based on Pratt: http://blacktie.co/demo/pratt/
         <div id="pricing">
             <div class="container">
                 <div class="row">
-                    <h1 class="centered">{{ trans('adminlte_lang::message.screenshots') }}</h1>
-                    <br>
-                    <div class="col-lg-8 col-lg-offset-2">
-                        <div id="carousel-example-generic" class="carousel slide">
-                            <!-- Indicators -->
-                            <ol class="carousel-indicators">
-                                <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
-                                <li data-target="#carousel-example-generic" data-slide-to="1"></li>
-                            </ol>
-
-                            <!-- Wrapper for slides -->
-                            <div class="carousel-inner">
-                                <div class="item active">
-                                    <img src="{{ asset('/img/item-01.png') }}" alt="">
+                    <div class="container">
+                        <h2 class="text-center">Why Pay To Join This Site</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis quis nibh vitae neque ultricies eleifend. Mauris feugiat mollis dui non tempus. Duis turpis nibh, imperdiet nec eleifend vitae, maximus a orci. Suspendisse viverra interdum orci, eu tincidunt elit finibus eget. Suspendisse malesuada luctus felis, sit amet vehicula felis scelerisque at. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Maecenas vulputate ligula sit amet posuere condimentum. Fusce eget dui erat.</p>
+                        <div class="row">
+                            <div class="col-md-4">
+                                <div class="columns">
+                                    <br>
+                                    <ul class="price">
+                                        <li class="header">Lorem ipsum</li>
+                                        <li class="grey">$ 0.00 / Lorem</li>
+                                        <li>Lorem ipsum</li>
+                                        <li>Lorem ipsum</li>
+                                        <li>Lorem ipsum</li>
+                                        <li>Lorem ipsum</li>
+                                        <li class="grey"><button href="#" class="button" data-toggle="modal" data-target="#modal">Lorem ipsum</button></li>
+                                    </ul>
                                 </div>
-                                <div class="item">
-                                    <img src="{{ asset('/img/item-02.png') }}" alt="">
+                            </div>
+                            <div class="col-md-4">
+                                <br>
+                                <div class="columns">
+                                    <ul class="price">
+                                        <li class="header">Lorem ipsum</li>
+                                        <li class="grey">$ 0.00 / Lorem</li>
+                                        <li>Lorem ipsum</li>
+                                        <li>Lorem ipsum</li>
+                                        <li>Lorem ipsum</li>
+                                        <li>Lorem ipsum</li>
+                                        <li class="grey"><button href="#" class="button" data-toggle="modal" data-target="#modal">Lorem ipsum</button></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <br>
+                                <div class="columns">
+                                    <ul class="price">
+                                        <li class="header">Lorem ipsum</li>
+                                        <li class="grey">$ 0.00 / Lorem</li>
+                                        <li>Lorem ipsum</li>
+                                        <li>Lorem ipsum</li>
+                                        <li>Lorem ipsum</li>
+                                        <li>Lorem ipsum</li>
+                                        <li class="grey"><button href="#" class="button" data-toggle="modal" data-target="#modal">Lorem ipsum</button></li>
+                                    </ul>
                                 </div>
                             </div>
                         </div>

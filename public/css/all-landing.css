@@ -6512,7 +6512,7 @@ p {
 
 /* Links */
 a {
-    color: #3bc492;
+    color: #074CD5;
     word-wrap: break-word;
 
     -webkit-transition: color 0.1s ease-in, background 0.1s ease-in;
@@ -6599,13 +6599,9 @@ hr {
 
 #showcase {
     display: block;
-    background-color: #34495e;
+    background-color: #F7F7F7;
     padding-top: 50px;
     padding-bottom: 50px;
-}
-
-#showcase h1 {
-    color: white;
 }
 
 #footerwrap {
@@ -6638,3 +6634,149 @@ hr {
     color: white
 }
 
+.custom-icon {
+  font-size:45px;
+  background: #FFF;
+  background: #FFF;
+  padding:30px;
+  -webkit-border-radius:1100%;
+  -moz-border-radius:100%;
+  -o-border-radius:100%;
+  border-radius:100%;
+  border:6px solid #fff;
+  color: #3933ff;
+  box-shadow: 0 1px 10px #085AD7;
+  text-align:center;
+  display:table-cell;
+  vertical-align:middle;
+  width:120px;
+  height:120px;
+  -moz-transition:.5s;
+  -webkit-transition:.5s;
+  -o-transition:.5s;
+  transition:.5s;
+}
+.custom-icon:hover {
+  background: #FFF;
+}
+.fix-editor {
+  display:none;
+}
+.icon-wrapper {
+  display:inline-block;
+}
+
+#about{
+  background-color: #FFFFFF;
+  color: #939393;
+  font-family: 'Poppins',sans-serif;
+  font-size: 15px;
+}
+
+#pricing{
+  background-color: #FFFFFF;
+  color: #939393;
+  font-family: 'Poppins',sans-serif;
+  font-size: 15px;
+}
+
+#contact{
+  background-color: #085AD7;
+  color: #939393;
+  font-family: 'Poppins',sans-serif;
+  font-size: 15px;
+}
+
+#img_logo{
+  index: 50;
+  top: 350px;
+  position: relative;
+  max-width: 350px;
+  max-height: 350px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@media (min-width: 200px) and (max-width: 399px) {
+  #img_logo{
+    top: 160px;
+    max-width: 150px;
+    max-height: 150px;
+  }
+}
+
+@media (min-width: 400px) and (max-width: 659px) {
+  #img_logo{
+    top: 160px;
+    max-width: 250px;
+    max-height: 250px;
+  }
+}
+
+@media (min-width: 660px) and (max-width: 779px) {
+  #img_logo{
+    top: 230px;
+    max-width: 250px;
+    max-height: 250px;
+  }
+}
+
+
+@media (min-width: 780px) and (max-width: 899px) {
+  #img_logo{
+    top: 260px;
+    max-width: 250px;
+    max-height: 250px;
+  }
+}
+
+* {
+  box-sizing: border-box;
+}
+/* Style the list */
+.price {
+  list-style-type: none;
+  border: 1px solid #eee;
+  margin: 0;
+  padding: 0;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+/* Add shadows on hover */
+.price:hover {
+  box-shadow: 0 8px 12px 0 rgba(0,0,0,0.2)
+}
+/* Pricing header */
+.price .header {
+  background-color: #085AD7;
+  color: white;
+  font-size: 15px;
+}
+/* List items */
+.price li {
+  border-bottom: 1px solid #eee;
+  padding: 20px;
+  text-align: center;
+}
+/* Grey list item */
+.price .grey {
+  background-color: #eee;
+  font-size: 20px;
+}
+/* The "Sign Up" button */
+.button {
+  background-color: #085AD7;
+  border: none;
+  color: white;
+  padding: 10px 25px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 18px;
+}
+/* Change the width of the three columns to 100%
+(to stack horizontally on small screens) */
+@media only screen and (max-width: 600px) {
+  .columns {
+    width: 100%;
+  }
+}
