@@ -7,21 +7,10 @@ Landing page based on Pratt: http://blacktie.co/demo/pratt/
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Shinrai systems">
-    <meta name="author" content="Sergi Tur Badenas - acacha.org">
 
     <meta property="og:title" content="SHINRAI" />
     <meta property="og:type" content="website" />
     <meta property="og:description" content="SHINRAI SYSTEMS" />
-    <meta property="og:url" content="http://demo.adminlte.acacha.org/" />
-    <meta property="og:image" content="http://demo.adminlte.acacha.org/img/AcachaAdminLTE.png" />
-    <meta property="og:image" content="http://demo.adminlte.acacha.org/img/AcachaAdminLTE600x600.png" />
-    <meta property="og:image" content="http://demo.adminlte.acacha.org/img/AcachaAdminLTE600x314.png" />
-    <meta property="og:sitename" content="demo.adminlte.acacha.org" />
-    <meta property="og:url" content="http://demo.adminlte.acacha.org" />
-
-    <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:site" content="@acachawiki" />
-    <meta name="twitter:creator" content="@acacha1" />
 
     <title>SHINRAI</title>
 
@@ -30,8 +19,8 @@ Landing page based on Pratt: http://blacktie.co/demo/pratt/
 
     <link href='https://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Raleway:400,300,700' rel='stylesheet' type='text/css'>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
     <link rel="stylesheet" media="screen" href="/css/particles/style.css">
+    <script src="/js/jquery/jquery-3.2.1.min.js"></script>
 </head>
 
 <body data-spy="scroll" data-target="#navigation" data-offset="50">
@@ -54,6 +43,7 @@ Landing page based on Pratt: http://blacktie.co/demo/pratt/
                     <li><a href="#about" class="smoothScroll">ABOUT</a></li>
                     <li><a href="#showcase" class="smoothScroll">FEATURES</a></li>
                     <li><a href="#pricing" class="smoothScroll">PRICING</a></li>
+                    <li><a href="#our_team" class="smoothScroll">OUR TEAM</a></li>
                     <li><a href="#contact" class="smoothScroll">CONTACT</a></li>
                 </ul>
                 <ul class="nav navbar-nav navbar-right">
@@ -68,14 +58,13 @@ Landing page based on Pratt: http://blacktie.co/demo/pratt/
         </div>
     </div>
 
-
-    <section id="home" name="home">
+    <section class="sections" id="home" name="home">
         <div id="particles-js">
             <img class="img-responsive" id="img_logo" src="{{ asset('/img/logo/white.png') }}" alt="logo">
         </div><!--/ #particles-js -->
     </section>
 
-    <section id="about" name="about">
+    <section class="sections" id="about" name="about">
         <!-- INTRO WRAP -->
         <div id="intro">
             <div class="container">
@@ -182,7 +171,7 @@ Landing page based on Pratt: http://blacktie.co/demo/pratt/
         </div><!--/ #features -->
     </section>
 
-    <section id="showcase" name="showcase">
+    <section class="sections" id="showcase" name="showcase">
         <div id="showcase">
             <div class="container">
                 <div class="row text-center">
@@ -209,7 +198,7 @@ Landing page based on Pratt: http://blacktie.co/demo/pratt/
         </div>
     </section>
 
-    <section id="pricing" name="pricing">
+    <section class="sections" id="pricing" name="pricing">
         <div id="pricing">
             <div class="container">
                 <div class="row">
@@ -269,7 +258,52 @@ Landing page based on Pratt: http://blacktie.co/demo/pratt/
         </div>
     </section>
 
-    <section id="contact" name="contact">
+    <section class="sections" id="our_team" name="our_team">
+        <div id="our_team">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-4">
+                                <div class="columns">
+                                    <br>
+                                    <ul class="price">
+                                        <li class="white"><img src="/img/team/user.jpg" alt="user" height="200px" width="200px" style="border-radius: 100px;"></li>
+                                        <li class="white">Lorem ipsum</li>
+                                        <li class="white">Lorem ipsum</li>
+                                        <li class="white">Lorem ipsum</li>
+                                        <li class="white">Lorem ipsum</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <br>
+                                <div class="columns">
+                                    <ul class="price">
+                                        <li class="white"><img src="/img/team/user.jpg" alt="user" height="200px" width="200px" style="border-radius: 100px;"></li>
+                                        <li class="white">Lorem ipsum</li>
+                                        <li class="white">Lorem ipsum</li>
+                                        <li class="white">Lorem ipsum</li>
+                                        <li class="white">Lorem ipsum</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <br>
+                                <div class="columns">
+                                    <ul class="price">
+                                        <li class="white"><img src="/img/team/user.jpg" alt="user" height="200px" width="200px" style="border-radius: 100px;"></li>
+                                        <li class="white">Lorem ipsum</li>
+                                        <li class="white">Lorem ipsum</li>
+                                        <li class="white">Lorem ipsum</li>
+                                        <li class="white">Lorem ipsum</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+        </div>
+    </section>
+
+    <section class="sections" id="contact" name="contact">
         <div id="footerwrap">
             <div class="container">
                 <div class="col-lg-5">
@@ -299,7 +333,7 @@ Landing page based on Pratt: http://blacktie.co/demo/pratt/
                             <textarea class="form-control" name="Message" rows="3"></textarea>
                         </div>
                         <br>
-                        <button type="submit" class="btn btn-large btn-success">{{ trans('adminlte_lang::message.submit') }}</button>
+                        <button type="submit" class="btn btn-large btn-success">Send</button>
                     </form>
                 </div>
             </div>
@@ -324,13 +358,21 @@ Landing page based on Pratt: http://blacktie.co/demo/pratt/
 <script src="{{ mix('/js/app-landing.js') }}"></script>
 <script src="/js/particles/particles.min.js"></script>
 <script src="/js/particles/configuration_particles.js"></script>
+<script src="/js/scrollify/jquery.scrollify.js"></script>
 
 <script>
     $('.carousel').carousel({
         interval: 3500
-    })
-</script>
-<script>
+    });
+
+    jQuery(document).ready(function($) {
+
+        $.scrollify({
+            section: ".sections",
+        });
+
+    });
+
     var count_particles, stats, update;
     count_particles = 400;
     update = function() {
